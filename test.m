@@ -19,13 +19,13 @@ effective_value_3=sqrt(mean(T3_data.^2));
 
 
 T4 = readtable('4.csv','range',[5 1]);
-T4_data=T4.x____ch1(1:(20*frequency));
+T4_data=T4.x_______ch1(1:(20*frequency));
 length(T4_data);
 effective_value_4=sqrt(mean(T4_data.^2));
 
 
 T5 = readtable('5.csv','range',[5 1]);
-T5_data=T5.x____ch1(1:(20*frequency));
+T5_data=T5.x_______ch1(1:(20*frequency));
 length(T5_data);
 effective_value_5=sqrt(mean(T5_data.^2));
 
